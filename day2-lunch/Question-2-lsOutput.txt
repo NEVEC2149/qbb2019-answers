@@ -1,0 +1,27 @@
+total 8496624
+-rw-r--r--  1 cmdb  staff           0 Aug 27 13:05 Question-2-lsOutput.txt
+-rw-r--r--@ 1 cmdb  staff         296 Aug 27 12:58 README.md
+-rw-r--r--  1 cmdb  staff      383369 Aug 27 12:28 SRR072903.10k.bam
+-rw-r--r--  1 cmdb  staff      130536 Aug 27 12:28 SRR072903.10k.bam.bai
+-rw-r--r--  1 cmdb  staff     1989028 Aug 27 11:58 SRR072903.10k.fastq
+-rw-r--r--  1 cmdb  staff     1903736 Aug 27 12:17 SRR072903.10k.sam
+-r--r--r--  1 cmdb  staff  4295582972 Aug 27 11:47 SRR072903.fastq
+-rw-r--r--  1 cmdb  staff    31483159 Aug 27 12:43 SRR072903.gtf
+-rw-r--r--@ 1 cmdb  staff      607544 Aug 27 12:00 SRR072903_fastqc.html
+-rw-r--r--  1 cmdb  staff      452888 Aug 27 12:00 SRR072903_fastqc.zip
+-rwxr-xr-x@ 1 cmdb  staff         505 Aug 27 12:57 doAnalysis.sh
+-rw-r--r--  1 cmdb  staff     2154166 Aug 27 12:43 e2t.ctab
+-rw-r--r--  1 cmdb  staff     5414770 Aug 27 12:43 e_data.ctab
+-rw-r--r--  1 cmdb  staff     1745148 Aug 27 12:43 i2t.ctab
+-rw-r--r--  1 cmdb  staff     2213702 Aug 27 12:43 i_data.ctab
+-rw-r--r--  1 cmdb  staff     2902521 Aug 27 12:43 t_data.ctab
+drwx------  3 cmdb  staff          96 Aug 27 12:39 tmp.oWDhky3i
+drwx------  3 cmdb  staff          96 Aug 27 12:37 tmp.tY7wCtKH
+
+/Users/cmdb/qbb2019-answers/day2-lunch/tmp.oWDhky3i:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 12:39 SRR072903.gtf.tmp
+
+/Users/cmdb/qbb2019-answers/day2-lunch/tmp.tY7wCtKH:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 12:37 SRR072903.gtf.tmp
