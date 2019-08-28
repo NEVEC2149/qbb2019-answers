@@ -22,23 +22,19 @@ for i, line in enumerate( f ):
 ### Question 2
 # Input 2 files after the python script, first the Index and second the .ctab
 
-# IndexComp = {}
-#
-# for i, line in enumerate( open( sys.argv[1] ) ):
-#     columns = line.rstrip("\n").split()
-#     gene_name = columns[0]
-#     uniprot = columns[1]
-#     IndexComp[gene_name] = uniprot
-#
-# for i, line in enumerate( open( sys.argv[2] ) ):
-#     columns = line.rstrip("\n").split()
-#     gene_ID = columns[8]
-#     if gene_ID in IndexComp:
-#         print(line, IndexComp[gene_ID])
-#     elif gene_ID not in IndexComp:
-#         print ("default")
-#
-        
-    
-    
-    
+IndexComp = {}
+
+for i, line in enumerate( open( sys.argv[1] ) ):
+    columns = line.rstrip("\n").split()
+    gene_name = columns[0]
+    uniprot = columns[1]
+    IndexComp[gene_name] = uniprot
+
+for i, line in enumerate( open( sys.argv[2] ) ):
+    columns = line.rstrip("\n").split()
+    gene_ID = columns[8]
+    if gene_ID in IndexComp:
+        print(line, IndexComp[gene_ID])
+    elif gene_ID not in IndexComp:
+        print ("default")
+
