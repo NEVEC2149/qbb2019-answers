@@ -39,7 +39,7 @@ for ident2, sequence2 in query:
             # print(a + k + x)
             # print(len(sequence1))
             # print(len(sequence2))
-            if a + k + x <= len(sequence2):
+            if a + k + x < len(sequence2) and i + k + x < len(sequence1):
                 if sequence1[i + k + x] == sequence2[a + k + x]:
                     x += 1
                 else:
@@ -50,3 +50,5 @@ for ident2, sequence2 in query:
                 break           
         match.sort( key=len, reverse=True )
 print( match )
+
+#./kmer-matcher-extended.py subset.fa droYak2_seq.fa 11

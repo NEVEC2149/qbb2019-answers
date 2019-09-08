@@ -18,7 +18,7 @@ for i, line in enumerate( f ):
     fields = line.split("\t")
     # consider onlu genes
     if fields[2] == "gene":
-        print( int( fields[4] ) - nit( fields[3] ) )
+        print( int( fields[4] ) - int( fields[3] ) )
 
 
 print( f.readline() )

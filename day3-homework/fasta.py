@@ -50,7 +50,7 @@ class FASTAReader(object):
 
 # what I want to work:
 
-#reader = FASTAReader( sys.stdin)
+# reader = FASTAReader( sys.stdin)
 
 # while True:
 #     ident, sequence = reader.next()
@@ -58,5 +58,5 @@ class FASTAReader(object):
 #         break
 #     print( ident, sequence )
 
-#for ident, sequence in reader:
+# for ident, sequence in reader:
 #    print ( ident, sequence )
